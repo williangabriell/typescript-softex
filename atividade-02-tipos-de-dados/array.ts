@@ -86,7 +86,7 @@ const aluno4: Aluno = {
 
 const alunosQuestão12 = [aluno1, aluno2, aluno3, aluno4]
 
-// Questão 14
+// Questão 13
 
 const produtos: string[] = ["macarrão", "arroz", "feijão", "carne", "verduras", "frutas", "café", "limpeza", "higiene", "superfluos" ]
 
