@@ -1,9 +1,9 @@
 let numeroInteiro1 = Number(prompt('Digite um número inteiro'))
 let numeroInteiro2 = Number(prompt('Digite outro número inteiro'))
-let opção = Number(prompt('Digite a opção que deseja 1 - SOMA || 2 - SUBTRAÇÃO || 3 - MULTIPLICAÇÃO || 4 - DIVISÃO'))
+let opçãoMatematica = Number(prompt('Digite a opção que deseja 1 - SOMA || 2 - SUBTRAÇÃO || 3 - MULTIPLICAÇÃO || 4 - DIVISÃO'))
 
 
-switch (opção) {
+switch (opçãoMatematica) {
     case 1:
         console.log(`O resultado da soma ${numeroInteiro1 + numeroInteiro2}`)
         break;
