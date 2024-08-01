@@ -1,0 +1,1 @@
+O comando for serve para criar laços de repetição (ou loops), que permitem executar um bloco de código múltiplas vezes. É uma das estruturas de controle de fluxo mais comuns e poderosas, permitindo a repetição de um conjunto de instruções enquanto uma condição é verdadeira.

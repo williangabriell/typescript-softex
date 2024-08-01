@@ -1,0 +1,1 @@
+Na estrutura de repetição "for", o valor da variável de controle (ou iterador) é automaticamente atualizado em cada iteração do loop adicionando sempre 1 valor a mais na variável que se atualiza a cada loop.

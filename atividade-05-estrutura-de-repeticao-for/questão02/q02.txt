@@ -1,0 +1,1 @@
+É definida através da seção de inicialização, é usada para iniciar a variável de inicio do loop.

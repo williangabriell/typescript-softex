@@ -1,0 +1,1 @@
+A condição define o fim da repetição no for. A condição é avaliada antes de cada iteração do loop. Se a condição for falsa, o loop termina. Se for verdadeira, o loop continua e executa o bloco de código novamente.
