@@ -1,17 +1,18 @@
-var contadorQ16 = 1;
-var notasAlunos = [];
-var notaMinima = 7;
+"use strict";
+let contadorQ16 = 1;
+let notasAlunos = [];
+let notaMinima = 7;
 while (contadorQ16 <= 5) {
-    var notas = Number(prompt("Digite a nota do aluno ".concat(contadorQ16)));
+    let notas = Number(prompt(`Digite a nota do aluno ${contadorQ16}`));
     notasAlunos.push(notas);
     contadorQ16++;
 }
-for (var i = 0; i < notasAlunos.length; i++) {
-    var nota = notasAlunos[i];
+for (let i = 0; i < notasAlunos.length; i++) {
+    let nota = notasAlunos[i];
     if (nota >= notaMinima) {
-        console.log("Aluno ".concat(i + 1, " aprovado com nota ").concat(nota));
+        console.log(`Aluno ${i + 1} aprovado com nota ${nota}`);
     }
     else {
-        console.log("Aluno ".concat(i + 1, " reprovado com nota ").concat(nota));
+        console.log(`Aluno ${i + 1} reprovado com nota ${nota}`);
     }
 }

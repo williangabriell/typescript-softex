@@ -1,0 +1,13 @@
+
+
+1. Estrutura:
+   `for`: Inclui inicialização, condição, e atualização na mesma linha.
+   `while`: Apenas verifica a condição; inicialização e atualização são feitas separadamente.
+
+2. Uso Comum:
+   `for`: Usado quando o número de iterações é conhecido.
+   `while`: Usado quando o número de iterações é incerto e depende de uma condição.
+
+3. Clareza:
+   `for`: Melhor para loops com contagem fixa.
+   `while`: Melhor para loops baseados em condições dinâmicas.

@@ -1,6 +1,7 @@
-var numero;
-var contagemPares = 0;
-var encontrouImpar = false;
+"use strict";
+let numero;
+let contagemPares = 0;
+let encontrouImpar = false;
 while (true) {
     numero = Number(prompt("Digite um número inteiro (ou 0 para parar):"));
     if (numero === 0) {
@@ -12,4 +13,4 @@ while (true) {
     }
     contagemPares++; // Incrementa o contador de números pares
 }
-console.log("Voc\u00EA digitou ".concat(contagemPares, " n\u00FAmeros pares antes do primeiro n\u00FAmero \u00EDmpar."));
+console.log(`Você digitou ${contagemPares} números pares antes do primeiro número ímpar.`);
